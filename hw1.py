@@ -115,19 +115,7 @@ def nearestOdd(n):
         return roundHalfUp(n) + 1 
     else: 
         return roundHalfUp(n) - 1 
-def rectanglesOverlap(x1, y1, w1, h1, x2, y2, w2, h2):
-    distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
-    if distance < w1 + w2: 
-        return True 
-    elif distance >= w1 + w2: 
-        return False
-    elif (y2 - y1) < (h2 - h1):
-        return False
-    elif (y2 - y1) >= (h2 - h1):
-        return True
-    
-def numberOfPoolBallRows(balls):
-    return 42
+  
 
 def linesIntersect(m1, b1, m2, b2): 
     #We need to find 3 points of intersection# 
@@ -186,14 +174,6 @@ def rectPeg(r,w,h):
     if h < (2*r) and w < (2*r) :
         return True
     return False 
- 
-def playThreeDiceYahtzee(dice):
-    return 42
-def real(z):
-    return (complex(z)).real # since in 2.5 non-complex don't have .real
-
-def findIntRootsOfCubic(a, b, c, d):
-    return 42
 
 #################################################
 # Test Functions
