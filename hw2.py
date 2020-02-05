@@ -308,11 +308,6 @@ def findZeroWithBisection(f, x0, x1, epsilon):
         return middleX
 
     return calculateMiddleX(f, x0 ,y0 ,x1 ,y1 ,middleX ,middleY, epsilon)
-def nthSmithNumber(n):
-    return 42
-
-def carrylessMultiply(x1, x2):
-    return 42
 
 def calculateLength(n): 
     check = n
@@ -345,13 +340,6 @@ def nthKaprekarNumber(n):
             found += 1
     return guess
 
-def nthCarolPrime(n):
-    return 42
-
-def play112(game):
-    return 42
-def amIsmart():
-    return False
 
 ############################
 # integerDataStructures
