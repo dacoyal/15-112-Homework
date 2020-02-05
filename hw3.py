@@ -196,42 +196,6 @@ def mastermindScore(target, guess):
     partialScore1 = partialScore(target,guess)
     return returnMessage(partialScore1, exactScore)
 
-def evalHand(hand):
-    return 42
-
-def playPoker(deck, players):
-    return 42 
-
-def encodeRightLeftRouteCipher(text, rows):
-    return 42
-
-def decodeRightLeftRouteCipher(cipher):
-    return 42
-
-def topLevelFunctionNames(code):
-    return 42
-
-def getEvalSteps(expr):
-    return 42
-
-def bonusEncode1(msg):
-    return 42
-
-def funDecode1(msg):
-    return 42
-
-def bonusEncode2(msg):
-    return 42
-
-def funDecode2(msg):
-    return 42
-
-def bonusEncode3(msg):
-    return 42
-
-def funDecode3(msg):
-    return 42
-
 #################################################
 # Test Functions
 #################################################
