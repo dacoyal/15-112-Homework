@@ -32,9 +32,9 @@ import math, copy
 #   E) None of the above
 
 # 4. Why did we provide our own myDeepCopy in the notes?
-#-->A) copy.deepcopy is very slow, ours is much faster
+#   A) copy.deepcopy is very slow, ours is much faster
 #   B) copy.deepcopy is not available on some versions of Python
-#   C) copy.deepcopy will preserve existing aliases in a 2d list, ours will not
+#-->C) copy.deepcopy will preserve existing aliases in a 2d list, ours will not
 #   D) copy.deepcopy is not a preferred way to copy a 2d list
 #   E) None of the above
 
@@ -243,8 +243,7 @@ class DataColumn(object):
         self.data = data
 
     def average(self): 
-        return sum(self.data)/len(self.data)
-#################################################
+        return sum(self.data)/len(self.data)#################################################
 # Test Functions
 #################################################
 
