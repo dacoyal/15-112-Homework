@@ -178,12 +178,8 @@ def areLegalValues(values):
 
    #this loop checks that the numbers are not repeated  
     for i in range(1,NSquared + 1):
-        count = 0
-        for c in values: 
-            if i == c: 
-                count += 1 
-                if count > 1: 
-                    return False 
+      if values.count(i) > 1: 
+            return False 
     return True  
 # this function checks if the row is legal      
 def isLegalRow(board, row): 
