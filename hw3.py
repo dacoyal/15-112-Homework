@@ -122,7 +122,7 @@ def isPalindrome(s):
     return True
 #this function checks for the longest and greatest ASCII. It keeps on checking
 #all the possible strings and gets the longest and best Palindrome
-def getBestPalindrome(s): 
+def longestSubpalindrome(s): 
     bestPalindrome = ''
     currentPalindrome = ''
     for i in range(len(s)):
@@ -136,9 +136,6 @@ def getBestPalindrome(s):
                 currentPalindrome > bestPalindrome):
                  bestPalindrome = currentPalindrome
     return bestPalindrome   
-
-def longestSubpalindrome(s):
-    return getBestPalindrome(s)  
 
 #this function gets the amount of exact matches that occur
 def exactScore1(target,guess):
