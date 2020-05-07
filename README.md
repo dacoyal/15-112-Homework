@@ -1,3 +1,2 @@
 # 15-112 Spring 2020, Carnegie Mellon University
-15-112: Fundamentals of Programming & Computer Science. 
-        Programmed in Python. 
+Alejandro Ruiz's work from 15-112
