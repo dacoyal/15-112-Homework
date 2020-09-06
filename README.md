@@ -1,2 +1,2 @@
 # 15-112 Spring 2020, Carnegie Mellon University
-Alejandro Ruiz's work from 15-112
+A technical introduction to the fundamentals of programming with an emphasis on producing clear, robust, and reasonably efficient code using top-down design, informal analysis, and effective testing and debugging. Starting from first principles, we will cover a large subset of the Python programming language, including its standard libraries and programming paradigms.
